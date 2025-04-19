@@ -1,0 +1,63 @@
+.indicator {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px auto 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .indicator li {
+    background: #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .indicator li a {
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .indicator li:hover {
+    background: #e0d4ff;
+  }
+  
+  .indicator li.active {
+    background: linear-gradient(45deg, #d6b4fc, #a8c9ff);
+  }
+  
+  .indicator li.active a {
+    color: white;
+  }
+  
+  .filter-condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .filter-condition span {
+    font-weight: bold;
+  }
+  
+  .filter-condition select {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: #6a4caf;
+    background: #fafafa;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .filter-condition select:hover {
+    border-color: #a38bff;
+  }
